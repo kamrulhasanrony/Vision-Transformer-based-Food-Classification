@@ -1,5 +1,5 @@
 # Vision Transformer (ViT) based Food Classification 
-After the amazing performance of transformer architecture in natural language processing tasks [Attention Is All You Need](https://arxiv.org/abs/1706.03762), it is used for image classification tasks recently. A team of Google consists of Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby complete the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) in 2020. Just like a sequence of words, a number of image patches are fed through the encoder block to obtain the feature. And finally Multi-layer perceptron (MLP) Head classifies the image. In this work, I used the Food-101 dataset which contains 101 classes, and implemented the Vision Transformer (ViT) model for classification. By using the pretrained model provided by Google and after proper training, the model obtained 91% classification accuracy.
+After the amazing performance of transformer architecture in natural language processing tasks [Attention Is All You Need](https://arxiv.org/abs/1706.03762), it is used for image classification tasks recently. A team of Google consists of Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby complete the paper [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) in 2020. Just like a sequence of words, a number of image patches are fed through the encoder block to obtain the feature. And finally Multi-layer perceptron (MLP) Head classifies the image. In this work, I used the Food-101 dataset which contains 101 classes, and implemented the Vision Transformer (ViT) model for classification. By using the pretrained model provided by Google and after proper training, the model obtained standard classification accuracy.
 
 ### Project Overview
 Food classification plays a vital role in various domains, such as nutrition analysis, dietary monitoring, and meal planning. Traditional approaches to food classification rely on handcrafted features or convolutional neural networks (CNNs). However, recent advancements in computer vision have introduced a new paradigm called Vision Transformers (ViTs), which have shown remarkable performance in image recognition tasks. This project aims to leverage the power of Vision Transformers for food classification tasks.<br>
@@ -92,7 +92,7 @@ The path of pre-trained checkpoint must be added in the ```python train.py``` fi
 <br> Run the python file to train the the model :  ```python train.py```  <br>
 
 ### Observe the Test result
-The test accuracy is =          <br>
+The test accuracy is =  ```90.07%```       <br>
 
 
 ### Reference
