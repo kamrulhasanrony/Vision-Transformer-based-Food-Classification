@@ -101,7 +101,7 @@ The test accuracy is =          <br>
 - [Google ViT](https://github.com/google-research/vision_transformer)
 - [ViT-cifar](https://github.com/jeonsworld/ViT-pytorch)
 - [ViT-ALL](https://github.com/lucidrains/vit-pytorch#vivit)
-
+#### Citations
 ```bibtex
 @article{vaswani2017attention,
   title={Attention is all you need},
